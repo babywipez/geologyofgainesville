@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Tajawal', cursive, 'Open Sans', sans-serif;
+  margin: 0;
+  padding 0;
+  font-size: 18px;
+  background: #e5e5e5;
+  text-align: center;
+}
+
+img {
+  width:100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.container{
+  margin: auto;
+}
+
+/* MAIN HEADER */
+
+.main-header {
+  background: #e5e5e5
+}
+
+.main-header h1 {
+  font-size: 30px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.primary-text {
+  font-family: 'Playfair Display SC', serif;
+  text-transform: uppercase;
+}
+
+/* INTRO TEXT */
+
+.intro-text {
+  padding-top: 200px;
+}
+
+/* MARGIN BOTTOM */
+
+.margin-bottom {
+  margin-bottom: -7px;
+}
+
+/* NAVBAR */
+
+#navbar {
+  text-transform: uppercase;
+}
+
+#navbar li{
+  display: inline;
+  padding-right: 20px;
+  list-style: none;
+}
+
+#navbar a{
+  text-decoration: none;
+  color: #888;
+}
+
+#navbar li.current a, #navbar a:hover{
+  color: #56a79a;
+  border-bottom: 3px solid #56a79a;
+  padding-bottom: 3px;
+}
+
+/* INTRO */
+
+.intro {
+  background: url(../images/prairie.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 75vh;
+  border-top: 5px solid #56a79a;
+  border-bottom: 5px solid #56a79a;
+}
+
+.intro h3 {
+  /* background: #333;
+  color: #fff;
+  border-radius: 70%;
+  padding: 40px;
+  opacity: 0.65;
+  line-height: 1.8;
+  margin: auto; */
+}
+
+.intro h2 {
+  font-size: 40px;
+}
+
+/* PAYNES-INTRO */
+.paynes-intro {
+  border-bottom: 5px solid #56a79a;
+  padding-bottom: 40px;
+}
+
+.paynes-intro h2 {
+  font-size: 35px;
+}
+
+/* RESOURCES */
+
+.resources h2 {
+  font-size: 40px;
+}
+
+.resources,
+.recreation-image, {
+  margin-top: 50px;
+  padding-bottom: 200px;
+  background: #e5e5e5
+}
+
+.resources i {
+  font-size: 50px;
+  color: #56a79a;
+}
+
+
+/* RECREATION */
+
+#recreation {
+  background: #333;
+  color: white;
+}
+
+/* INFO */
+
+.limestone,
+.info,
+#recreation,
+.paynes {
+  background:#333;
+  color:#fff;
+}
+
+/* BORDER */
+#recreation,
+.limestone,
+.info {
+  border-top: 5px solid #56a79a;
+  border-bottom: 5px solid #56a79a;
+}
+
+/* MAIN FOOTER */
+
+.main-footer {
+  background: #c5c8cc
+}
