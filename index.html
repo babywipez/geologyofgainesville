@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Gainesville's Geology</title>
+    <title>Geology of Gainesville</title>
     <link rel="stylesheet" href="css/flexboxgrid.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tajawal">
@@ -22,11 +22,10 @@
           <div class="row end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
             <nav id="navbar">
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Geologic Past</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Paynes Prairie</a></li>
-                <li><a href="#">Resources</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#geologic-past">Geologic Past</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#resources">Resources</a></li>
               </ul>
             </nav>
           </div>
@@ -35,10 +34,10 @@
     </header>
 
     <!-- INTRO CONTENT  -->
-    <section class="intro">
+    <section class="intro" id="home">
       <div class="container">
           <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <div class="intro-text">
                 <h2>Gainesville sits in the heart of Florida, and it holds a fantastic, rich history of geology.</h2><br />
               </div>
@@ -48,18 +47,16 @@
     </section>
 
     <!-- GEOLOGIC HISTORY   -->
-    <section class="geologic-history">
+    <section class="geologic-history" id="geologic-past">
       <div class="container">
         <div class="row center-xs center-sm center-md center-lg">
           <div class="col xs-12 sm-6 md-6 lg-6">
             <h2>Gainesville once was beneath a shallow sea, during a time of geologic history known as the Eocene Epoch.</h2>
-            <p>During this time, the material that made up the shells and bones of those organisms floated to the bottom of the sea when they died, compacting and creating the limestone that we find in the area!</p>
-            <p>It's also the reason we can find fossils like these in places like Hoggetowne creek and other features around Gainesville!</p>
-              <ul>
-                <li>Shark teeth</li>
-                <li>Whale Bones</li>
-                <li>Stingray Barbs</li>
-              </ul>
+            <img src="images/eocene2.jpg" /><figcaption>
+              This is an artististic depiction of a nearshore habitat during the Eocene done by D.W. Miller.<hr />
+            </figcaption>
+            <p>During this time, the material that made up the shells and bones of organisms living in this shallow sea floated to the bottom of the sea when they died, compacting and creating the limestone that we find in the area.</p><hr />
+            <p>As the rocks weathered from hydrological processes like the formation and flow of Hogtown Creek, the fossils retained a slightly higher hardness than the surrounding carbonate material. As a result, Gainesville sediments and rocks contain well-preserved shark teeth, whale bones, stingray barbs, bivalve shells, and a plethora of other examples!</p>
           </div>
         </div>
       </div>
@@ -80,8 +77,57 @@
       </div>
     </section>
 
+    <!-- ThumbGallery  -->
+    <section class="thumb-gallery">
+      <div class="container">
+        <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="wrapper">
+              <div>
+                <h2>
+                  The rocks pictured below include gastropods, bivalves, coral, microfossils, and geodes. They were all collected in a rock quarry in Newberry, located just west of Gainesville. Rock quarries in the area are an extremely valuable resource to local geologists.
+                </h2>
+                <div class="main-img">
+                  <img src="images/img1.jpg" id="current" />
+                </div>
+
+                <div class="imgs">
+                  <img src="images/img1.jpg" />
+                  <img src="images/img2.jpg" />
+                  <img src="images/img3.jpg" />
+                  <img src="images/img4.jpg" />
+                  <img src="images/img5.jpg" />
+                  <img src="images/img6.jpg" />
+                  <img src="images/img7.jpg" />
+                  <img src="images/img8.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GULF TROUGH -->
+    <section class="gulf-trough">
+      <div class="container">
+        <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+          <p>In the time when the carbonate platform was forming and sea levels were higher, there was a strong current that spanned across the northern part of Florida pointed eastward called the Gulf Trough (figure 1). This strong current pushed the sediments weathering off the uplifting Appalachian Mountains towards the Atlantic Ocean instead of overlying the newly forming limestone.</p>
+          <p>Eventually after the Eocene, during the Miocene Epoch, the Gulf Trough filled in (figure 2), and the sediments from the Appalachians were able to make their way to the Florida platform. This led to the injection of silica-rich sediments like sand and clay, called siliciclastics, into Florida. For Gainesville, the most important group of these sediments is called the Hawthorn Group, which is found in much of east Gainesville and plays an important role in the landscape of the Floridan Aquifer system.</p>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <img src="images/stage-1.jpg" alt="picture of the gulf trough" />
+            <figcaption>figure 1</figcaption>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <img src="images/stage-2.jpg" alt="picture of the gulf trough filled in" />
+            <figcaption>figure 2</figcaption>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- PAYNES INTRO -->
-    <section class="paynes-intro">
+    <section class="paynes-intro" id="features">
       <div class="container">
         <div class="row center-xs center-sm center-md center-lg">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -146,7 +192,7 @@
       <div class="container">
         <div class="row center-xs center-sm center-md center-lg">
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <h2>Gainesville and the surrounding areas provide tons of great recreation opportunities</h2>
+            <h2>Gainesville and the surrounding areas provide plenty of great recreation opportunities</h2>
             <p>As rainfall made its way through the naturally porous limestone over large spans of geologic time, it left behind large spaces in the rocks.</p>
             <p>This pleasant accident causes Central Florida to boast beautiful springs, intricate cave systems, and impressive sinkholes for the public to enjoy.</p>
           </div>
@@ -154,11 +200,23 @@
             <img src="images/spring2.jpg" />
           </div>
         </div>
+        <hr />
+        <div class="row center-xs center-sm center-md center-lg">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2>Devil's Millhopper Geological State Park is an impressive 120 ft deep sinkhole in northwest Gainesville and a popular hiking attraction. The sinkhole has been instrumental in helping researchers learn about Florida's natural history.</h2>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="images/devils2.jpg" />
+            <figcaption>
+              photo courtesy of Florida State Parks
+            </figcaption>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- RESOURCES -->
-    <section class="resources">
+    <section class="resources" id="resources">
       <div class="container">
         <div class="row center-xs center-sm center-md center-lg">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -169,17 +227,17 @@
             <!-- ICON ROW 1 -->
             <div class="row center-xs center-sm center-md center-lg">
               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <i class="fa fa-building"></i><br>
+                <a href="https://www.floridamuseum.ufl.edu" target="_blank"><i class="fa fa-building"></i><br></a>
                 <h4>Florida Museum of Natural History</h4>
                 <p>The Florida Museum has many exciting exhibitions, student programs and professional development opportunities for educators throughout the school year.</p>
               </div>
               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <i class="fa fa-search"></i><br>
+                <a href="https://www.usgs.gov/" target="_blank"><i class="fa fa-search"></i><br></a>
                 <h4>U.S. Geological Survey</h4>
                 <p>The USGS provides science about the natural hazards that threaten lives and livelihoods, the water, energy, minerals, and other natural resources we rely on, the health of our ecosystems and environment, and the impacts of climate and land-use change.</p>
               </div>
               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <i class="fa fa-tree"></i><br>
+                <a href="https://www.floridastateparks.org/" target="_blank"><i class="fa fa-tree"></i><br></a>
                 <h4>Florida State Parks</h4>
                 <p>The Florida State Parks Department manages and delivers intrepretive services about all 175 state parks in Florida.</p>
               </div>
@@ -188,17 +246,17 @@
             <!-- ICON ROW 2 -->
             <div class="row center-xs center-sm center-md center-lg">
               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <i class="fa fa-graduation-cap"></i><br>
+                <a href="https://www.geology.ufl.edu" target="_blank"><i class="fa fa-graduation-cap"></i><br></a>
                 <h4>UF Department of Geological Sciences</h4>
                 <p>The University of Florida's Department of Geological Sciences aims to provide a comprehensive understanding of Earth materials and processes, train students who will excel in the geoscience workforce, and create sustainable solutions to Earth-related societal needs.</p>
               </div>
               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <i class="fa fa-graduation-cap"></i><br>
-                <h4>Santa Fe College Physical Sciences Department</h4>
-                <p>The Physical Sciences Department at Santa Fe College offers courses in geology, oceanography, and geological time, as well as field trip opportunities and public outreach campaigns.</p>
+                <a href="https://www.sfcollege.edu/naturalsciences/index" target="_blank"><i class="fa fa-graduation-cap"></i><br></a>
+                <h4>Santa Fe College Natural Sciences Department</h4>
+                <p>The Physical Sciences Department at Santa Fe College offers courses in geology, oceanography, and geological history, as well as field trip opportunities and public outreach campaigns.</p>
               </div>
               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <i class="fa fa-gem"></i><br>
+                <a href="http://gainesvillegms.weebly.com/" target="_blank"><i class="fa fa-gem"></i><br></a>
                 <h4>Gainesville Gem & Mineral Society</h4>
                 <p>The Gainesville Gem & Mineral Society is a club whose members enjoy collecting, studying. observing, preserving, and sharing nature's bounty of rocks, minerals, fossils, gemstones, jewelry, lapidary and geological sciences.</p>
               </div>
@@ -219,6 +277,6 @@
         </div>
       </div>
     </footer>
-
+    <script src="main.js"></script>
   </body>
 </html>
